@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+set -e
 
 USERNAME="${USERNAME:-"${_REMOTE_USER:-"root"}"}"
 
