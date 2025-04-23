@@ -33,8 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - neovim-kickstart
     steps:
       - uses: actions/checkout@v4
 
