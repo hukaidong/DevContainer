@@ -10,5 +10,16 @@
             }
         },
         "remoteUser": "usertest"
+    },
+    "only_util_user": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:latest": {
+                "username": "usertest"
+            }, 
+            "neovim-kickstart": {
+            }
+        },
+        "remoteUser": "usertest"
     }
 } 
