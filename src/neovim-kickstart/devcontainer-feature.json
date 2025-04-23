@@ -1,0 +1,17 @@
+{
+    "name": "Neovim Kickstart",
+    "id": "neovim-kickstart",
+    "version": "1.0.0",
+    "description": "A feature to set up Neovim with kickstart configuration",
+    "options": {
+        "username": {
+            "type": "string",
+            "default": "root",
+            "description": "Username for Neovim configuration"
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:latest": {},
+        "ghcr.io/duduribeiro/devcontainer-features/neovim:1": {}
+    }
+} 
