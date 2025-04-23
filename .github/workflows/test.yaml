@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - neovim-kickstart
+          - kd-utils
         baseImage:
           - debian:latest
           - ubuntu:latest

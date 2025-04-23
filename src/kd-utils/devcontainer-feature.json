@@ -9,7 +9,7 @@
     "options": {
         "username": {
             "type": "string",
-            "default": "root",
+            "default": "",
             "description": "Username for shell configuration"
         }
     },
