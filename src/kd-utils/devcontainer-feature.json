@@ -1,7 +1,7 @@
 {
     "name": "KD Utils",
     "id": "kd-utils",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Kaidong's extra utility library",
     "containerEnv": {
         "BUNDLE_WITHOUT": "production"
