@@ -1,3 +1,5 @@
+set -ex
+
 git clone https://github.com/nvim-lua/kickstart.nvim.git $HOME/.config/nvim
 
 nvim --headless "+Lazy! sync" +qa

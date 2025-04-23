@@ -1,0 +1,17 @@
+{
+    "name": "KD Utils",
+    "id": "kd-utils",
+    "version": "1.0.0",
+    "description": "Kaidong's extra utility library",
+    "containerEnv": {
+        "BUNDLE_WITHOUT": "production"
+    },
+    "options": {
+        "username": {
+            "type": "string",
+            "default": "root",
+            "description": "Username for shell configuration"
+        }
+    },
+    "installsAfter": []
+} 
